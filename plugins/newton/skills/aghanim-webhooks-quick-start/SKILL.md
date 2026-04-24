@@ -14,13 +14,13 @@ description: >-
 
 # Aghanim Webhooks Quick Start
 
-Walks Cursor through a fresh Aghanim webhook integration in the project
-the user is currently working on. The skill is stack-agnostic — it adapts
-to whichever language and framework the project already uses.
+Walks the assistant through a fresh Aghanim webhook integration in the
+project the user is currently working on. The skill is stack-agnostic —
+it adapts to whichever language and framework the project already uses.
 
-**Requires:** the `aghanim` Cursor plugin (ships with this skill), which
-provides the Newton MCP server (`mcp__aghanim__*`). All Aghanim doc and
-API lookups must go through that server — anonymous HTTP fetches against
+**Requires:** the `aghanim` Cursor plugin (ships with this skill),
+which provides the Newton MCP server (`mcp__aghanim__*`). All Aghanim doc
+and API lookups must go through that server — anonymous requests against
 `docs.aghanim.com` return 403.
 
 ---
@@ -28,7 +28,7 @@ API lookups must go through that server — anonymous HTTP fetches against
 ## First-time tool call
 
 The first `mcp__aghanim__*` call triggers an Auth0 browser login. Finish it
-and return to Cursor — the session persists.
+and return to your editor — the session persists.
 
 ---
 
@@ -43,8 +43,8 @@ and return to Cursor — the session persists.
    top hit that covers request shape, response shape, signing, idempotency,
    or retry semantics.
 
-Do **not** fall back to anonymous HTTP fetches — `docs.aghanim.com` rejects
-anonymous requests.
+Do **not** fetch `docs.aghanim.com` anonymously — it returns 403. Use
+`mcp__aghanim__fetch_doc`.
 
 ### Step 2 — Pull the machine-readable schemas
 

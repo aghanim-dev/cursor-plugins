@@ -3,17 +3,6 @@
 A [Cursor plugin marketplace](https://cursor.com/docs/plugins#team-marketplaces)
 containing Aghanim's plugins for Cursor.
 
-## Quick start
-
-1. In Cursor, open the team marketplace dashboard.
-2. Add this marketplace by pasting the repository URL:
-   `https://github.com/aghanim-dev/cursor-plugins`.
-3. Install the `newton` plugin from the marketplace.
-4. In Agent chat, run `/aghanim-webhooks-quick-start`.
-
-The very first `mcp__aghanim__*` call opens a browser for Aghanim SSO
-login — complete it once and the session persists.
-
 ## Plugins
 
 | Plugin | Description |

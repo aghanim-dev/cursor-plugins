@@ -9,6 +9,14 @@ releases on the same day.
 
 ## [Unreleased]
 
+## [2026.04.24.1]
+
+### Changed
+- Aligned `.cursor-plugin/marketplace.json` and `plugins/newton/.cursor-plugin/plugin.json` with the [cursor/plugin-template](https://github.com/cursor/plugin-template) schema: the marketplace plugin entry is now `{name, source, description}` only, and `homepage`/`repository` are dropped from the plugin manifest. No change to plugin behaviour or MCP configuration.
+
+### Removed
+- Dropped the marketplace README's Quick start section (team-marketplace install instructions) while the plugin is pending submission to the official Cursor plugin directory.
+
 ## [2026.04.24.0]
 
 ### Added
@@ -16,3 +24,9 @@ releases on the same day.
 - `newton` plugin with Newton MCP server (`mcp__aghanim__*`) for Aghanim
   docs and API lookups, the `aghanim-webhooks-quick-start` skill, and
   the `/aghanim-webhooks-quick-start` slash command.
+
+### Changed
+- Reworded the `aghanim-webhooks-quick-start` skill to editor-neutral
+  phrasing (e.g. "the assistant" instead of "Cursor", "your editor"
+  instead of "Cursor") so the same text can be shared with the Claude
+  Code variant. No behavioral change.
