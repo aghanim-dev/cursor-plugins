@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "aghanim": {
+      "url": "https://mcp.aghanim.dev/sse"
+    }
+  }
+}

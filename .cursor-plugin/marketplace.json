@@ -1,0 +1,27 @@
+{
+  "name": "aghanim",
+  "owner": {
+    "name": "Aghanim",
+    "email": "contact@aghanim.com"
+  },
+  "metadata": {
+    "description": "Aghanim's Cursor plugins — docs, API, and integration workflows powered by the Newton MCP server.",
+    "version": "2026.04.24.0"
+  },
+  "plugins": [
+    {
+      "name": "newton",
+      "source": "./plugins/newton",
+      "description": "Aghanim integration for Cursor: search Aghanim docs and the Aghanim public API via the Newton MCP server, plus the webhook quick-start skill.",
+      "version": "2026.04.24.0",
+      "author": {
+        "name": "Aghanim",
+        "email": "contact@aghanim.com"
+      },
+      "homepage": "https://aghanim.com",
+      "repository": "https://github.com/aghanim-dev/cursor-plugins",
+      "license": "AGPL-3.0-or-later",
+      "keywords": ["aghanim", "newton", "docs", "api", "mcp", "webhooks"]
+    }
+  ]
+}
