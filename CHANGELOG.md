@@ -9,6 +9,17 @@ releases on the same day.
 
 ## [Unreleased]
 
+## [2026.04.30.0]
+
+### Added
+- Documentation section in the README linking to the
+  [Aghanim AI coding tools overview](https://docs.aghanim.com/ai-coding-tools/overview).
+
+### Changed
+- Intro line now calls this a "Cursor plugins repository" and links to
+  `https://cursor.com/docs/plugins` (previously linked to the
+  `#team-marketplaces` anchor).
+
 ## [2026.04.24.1]
 
 ### Changed

@@ -1,7 +1,11 @@
 # Aghanim Cursor Marketplace
 
-A [Cursor plugin marketplace](https://cursor.com/docs/plugins#team-marketplaces)
+A [Cursor plugins](https://cursor.com/docs/plugins) repository
 containing Aghanim's plugins for Cursor.
+
+## Documentation
+
+See the [Aghanim AI coding tools overview](https://docs.aghanim.com/ai-coding-tools/overview) for an introduction to using Aghanim with AI coding assistants.
 
 ## Plugins
 
