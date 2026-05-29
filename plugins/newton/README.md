@@ -4,7 +4,7 @@ Search Aghanim's product documentation and browse the Aghanim public API directl
 
 ## What's included
 
-- **Newton MCP server** — remote SSE connection to `https://mcp.aghanim.dev/sse`, authenticated with Aghanim SSO (Auth0).
+- **Newton MCP server** — remote streamable HTTP connection to `https://mcp.aghanim.com/mcp`, authenticated with Aghanim SSO (Auth0).
 - **`aghanim-webhooks-quick-start` skill** — walks Cursor through implementing Aghanim's `player.verify`, `item.add`, and `item.remove` webhook handlers in the current project, using the Newton MCP tools as the source of truth for docs and schemas.
 - **`/aghanim-webhooks-quick-start` command** — runs the skill above on demand.
 

@@ -9,6 +9,11 @@ releases on the same day.
 
 ## [Unreleased]
 
+## [2026.05.29.0]
+
+### Changed
+- Newton MCP server URL updated to `https://mcp.aghanim.com/mcp` using the streamable HTTP transport.
+
 ## [2026.04.30.0]
 
 ### Added
